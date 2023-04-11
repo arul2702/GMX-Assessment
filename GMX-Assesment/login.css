@@ -2,50 +2,34 @@
     margin: 0;
     padding: 0;
 }
-.container{
-    background-image: url("cxeimwflyo881.webp");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .wrapper{
+    position: absolute;
     width: 721px;
-    height: 760px;
+    height: 1024px;
     left: 0px;
     top: 0px;
+}
+.wrapper{
+    border: 1px solid black;
     justify-content: center;
-    backdrop-filter: blur(1px) ;
-    background: linear-gradient(90.23deg, rgba(0, 0, 0, 0.30) 0.19%, rgba(0, 0, 0, 0.38) 102.56%);
-    box-shadow: 1px 50px 20px;
-}
-.logo{
-    position: absolute;
-    top:73px;
-    left:30px
-}
-.star{
-    position: absolute;
-    left: 8px;
-    top: 3px;
+    display: flex;
 }
 .form-values{
-    height: 760px;
+    border: solid;
+    height: 800px;
+    margin-top: 150px;
 }
 h1{
-     padding: 150px 30px 30px 30px ;
+    padding: 60px 30px 30px 30px ;
     text-align: center;
-    color: white;
-    font-Size:64px;
 }
 .input-data{
     width: 521px;
     height: 80px;
     border: 1px solid rgb(255, 60, 0);
     border-radius: 38px;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 90px;
-    background: transparent;
 }
 .input-data::placeholder{
     font-size: 24px;
@@ -60,6 +44,4 @@ button{
     margin-left: 90px;
     background-color: #FFCD2D;
     border: none;
-    color: black;
-    font-Size:28px;
 }
