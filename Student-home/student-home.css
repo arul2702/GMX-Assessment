@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    top:50px;
+    left:30px
+}
+.star{
+    position: absolute;
+    left: 17px;
+    top: 3px;
+}
+.student-bar{
+    position: absolute;
+    right:240px;
+    top:41px;
+    width: 145px;
+}
+.student-logo{
+    position: absolute;
+    right:370px;
+    width: 60px;
+    top:18px;
+}
+.teacher-bar{
+    position:absolute;
+    right:50px;
+    top:40px;
+    width: 110px;
+}
+.teacher-logo{
+    position: absolute;
+    right:140px;
+    width:54px;
+    top:13px;
+}
+.wrapper{
+    position: absolute;
+    left: 40px;
+    top:80px;
+    width: 1450px;
+    height: 635px;
+}
+.card{
+    position: relative;
+}
+/*card1*/
+.penta1{
+    position: absolute;
+    z-index:1;
+}
+.photo1{
+    position: absolute;
+    z-index: 2;
+    top:70px;
+    left: 87px;
+}
+.name1{
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    top: 254px;
+    left:57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card2*/
+.penta2{
+    position: absolute;
+    z-index:1;
+    left:580px
+}
+.photo2{
+    position: absolute;
+    z-index: 2;
+    top:70px;
+    left: 667px;
+}
+.name2{
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    top: 254px;
+    left:635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card3*/
+.penta3{
+    position: absolute;
+    z-index:1;
+    right:0;
+}
+.photo3{
+    position: absolute;
+    z-index: 2;
+    top:70px;
+    right: 87px;
+}
+.name3{
+    position: absolute;
+    z-index: 3;
+    top:40px;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    top: 254px;
+    right:63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card4*/
+.penta4{
+    position: absolute;
+    z-index:1;
+    top: 340px;
+}
+.photo4{
+    position: absolute;
+    z-index: 2;
+    top:410px;
+    left: 87px;
+}
+.name4{
+    position: absolute;
+    z-index: 3;
+    top:595px;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    left:57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card5*/
+.penta5{
+    position: absolute;
+    z-index:1;
+    left:580px;
+    top: 340px;
+}
+.photo5{
+    position: absolute;
+    z-index: 2;
+    top:410px;
+    left: 667px;
+}
+.name5{
+    position: absolute;
+    z-index: 3;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    top:595px;
+    left:635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card6*/
+.penta6{
+    position: absolute;
+    z-index:1;
+    right:0;
+    top:340px;
+}
+.photo6{
+    position: absolute;
+    z-index: 2;
+    top:410px;
+    right: 87px;
+}
+.name6{
+    position: absolute;
+    z-index: 3;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    top: 595px;
+    right:63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
