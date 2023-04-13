@@ -7,6 +7,11 @@
     top:50px;
     left:30px
 }
+.container{
+    width: 1535px;
+    height: 100vh;
+    background:linear-gradient(to right, rgb(211, 108, 203) , rgb(62, 130, 231),rgb(55, 220, 173));
+}
 .star{
     position: absolute;
     left: 17px;
@@ -17,6 +22,7 @@
     right:240px;
     top:41px;
     width: 145px;
+    cursor: pointer;
 }
 .student-logo{
     position: absolute;
@@ -29,13 +35,13 @@
     right:50px;
     top:40px;
     width: 110px;
+    cursor: pointer;
 }
 .teacher-logo{
     position: absolute;
     right:140px;
     width:54px;
-    top:13px;
-}
+    top:13px;}
 .wrapper{
     position: absolute;
     left: 40px;
@@ -52,9 +58,10 @@
     z-index:1;
 }
 .photo1{
+    height:160px;
     position: absolute;
     z-index: 2;
-    top:70px;
+    top:90px;
     left: 87px;
 }
 .name1{
@@ -69,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /*card2*/
 .penta2{
@@ -94,6 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /*card3*/
 .penta3{
@@ -104,7 +113,7 @@
 .photo3{
     position: absolute;
     z-index: 2;
-    top:70px;
+    top:83px;
     right: 87px;
 }
 .name3{
@@ -119,6 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /*card4*/
 .penta4{
@@ -129,7 +139,7 @@
 .photo4{
     position: absolute;
     z-index: 2;
-    top:410px;
+    top:430px;
     left: 87px;
 }
 .name4{
@@ -143,6 +153,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 /*card5*/
 .penta5{
@@ -155,7 +166,9 @@
     position: absolute;
     z-index: 2;
     top:410px;
-    left: 667px;
+    left: 658px;
+    width:145px;
+    height:200px;
 }
 .name5{
     position: absolute;
@@ -167,6 +180,7 @@
     left:635px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
 }
 /*card6*/
@@ -179,7 +193,7 @@
 .photo6{
     position: absolute;
     z-index: 2;
-    top:410px;
+    top:430px;
     right: 87px;
 }
 .name6{
@@ -192,5 +206,6 @@
     right:63px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
 }
