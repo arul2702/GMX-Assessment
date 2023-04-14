@@ -26,7 +26,7 @@
     cursor: pointer;
     background-color: black;
     border-radius: 38px;
-    color: rgb(192, 184, 184);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
     cursor: pointer;
     background-color: black;
     border-radius: 38px;
-    color: white;
+    color: rgb(192, 184, 184);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,10 +181,10 @@
 .photo5{
     position: absolute;
     z-index: 2;
-    top:410px;
-    left: 658px;
-    width:145px;
-    height:200px;
+    top:407px;
+    left: 665px;
+    width:110pxx;
+    height:190px;
 }
 .name5{
     position: absolute;

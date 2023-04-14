@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    top:50px;
+    left:30px
+}
+.container{
+    width: 1535px;
+    height: 100vh;
+    background:#FFE29B;
+    display: flex;
+    box-shadow: 10px 5px 40px 10px rgb(189, 201, 135) inset, -10px -5px 40px 10px rgb(174, 182, 132) inset;
+}
+.star{
+    position: absolute;
+    left: 17px;
+    top: 3px;
+}
+.content{
+    position: relative;
+    left:300px;
+    top:110px;
+    width: 950px;
+    height: 620px;
+    background-color:#E8AF17;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    box-shadow: 10px 10px 40px 10px black inset, -10px -10px 40px 10px black inset;
+}
+.leo{
+    position: absolute;
+    width:200px;
+    height: 200px;
+    left: 680px;
+    z-index: 3;
+}
+.photo{
+    position: absolute;
+    width:260px;
+    right: 30px;
+    top: 30px;
+}
+.name{
+    font-size: 55px;
+    margin-top:40px;
+    margin-left: 50px;
+    color:white ;
+}
+.details{
+    width: 500px;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: white;
+}
+.details tr{
+    border: solid;
+}
+.details tr td{
+    padding: 10px;
+}
