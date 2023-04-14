@@ -45,7 +45,7 @@
     cursor: pointer;
     background-color: black;
     border-radius: 38px;
-    color: white;
+    color: rgb(192, 184, 184);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,4 +224,59 @@
     justify-content: center;
     cursor: pointer;
     align-items: center;
+}
+/*hover for student and staff bar*/
+.student-bar:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(192, 184, 184);
+    transform: scale(1.03);
+    font-size: 26px;;
+}
+.teacher-bar:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: white;
+    transform: scale(1.03);
+    font-size: 26px;;
+}
+/*hover for cards names*/
+.name1:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(49, 59, 125);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+.name2:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(49, 59, 125);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+.name3:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(61, 61, 60);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+.name4:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(49, 59, 125);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+.name5:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(49, 59, 125);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+.name6:hover{
+    box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
+    color: rgb(49, 59, 125);
+    transform: scale(1.03);
+    font-size: 20px;;
+}
+/*for knowing the page*/
+.active-bar{
+    color:white;
+    font-size: 26px;
 }
