@@ -1,6 +1,8 @@
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Cinzel";
 }
 .logo{
     position: absolute;
@@ -63,4 +65,65 @@
 }
 .details tr td{
     padding: 10px;
+}
+@media screen and (max-width:700px){
+    .star{
+        position: absolute;
+        left: 17px;
+        top: 3px;
+        width:30px;
+    }
+    .logo{
+        position: absolute;
+        top:25px;
+        left:23px;
+        width: 90px;
+    }
+    .container{
+        width: 500px;
+        height: 765px;
+        background:rgba(233, 132, 132, 0.468);
+        display: flex;
+        box-shadow: 10px 5px 40px 10px rgb(133, 105, 105) inset, -10px -5px 40px 10px rgb(120, 99, 99) inset;
+    }
+    .content{
+        position: relative;
+        left:30px;
+        top:60px;
+        width: 380px;
+        height: 700px;
+        background-color:#9C1801;
+        justify-content: center;
+        align-items: center;
+        border-radius: 38px;
+        box-shadow: 10px 10px 40px 10px black inset, -10px -10px 40px 10px black inset;
+    }
+    .leo{
+        position: absolute;
+        width:80px;
+        top:0px;
+        height: 100px;
+        left: 160px;
+        z-index: 3;
+    }
+    .photo{
+        position: absolute;
+        width:180px;
+        left: 100px;
+        top: 30px;
+    }
+    .name{
+        font-size: 35px;
+        margin-top:230px;
+        margin-left: 100px;
+        color:white ;
+    }
+    .details{
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 65px;
+        font-size: 17px;
+        color: white;
+    }
 }

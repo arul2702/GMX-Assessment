@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Cinzel";
 }
 .logo{
     position: absolute;
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 .student-logo{
     position: absolute;
@@ -51,13 +52,14 @@
     align-items: center;
     width: 120px;
     height:40px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .teacher-logo{
     position: absolute;
     right:140px;
     width:54px;
-    top:13px;}
+    top:13px;
+}
 .wrapper{
     position: absolute;
     left: 40px;
@@ -230,13 +232,13 @@
     box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
     color: white;
     transform: scale(1.03);
-    font-size: 26px;
+    font-size: 22px;
 }
 .teacher-bar:hover{
     box-shadow: 0 10px 15px rgba(19, 5, 5, 0.3);
     color: rgb(192, 184, 184);
     transform: scale(1.03);
-    font-size: 26px;;
+    font-size: 22px;;
 }
 /*hover for cards names*/
 .name1:hover{
@@ -278,5 +280,216 @@
 /*for knowing the page*/
 .active-bar{
     color:white;
-    font-size: 26px;
+    font-size: 22px;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 600px;
+        height: 2235px;
+        background:linear-gradient(to right, rgb(211, 108, 203) , rgb(62, 130, 231),rgb(55, 220, 173));
+    }
+    .star{
+        position: absolute;
+        left: 17px;
+        top: 3px;
+    }
+    .student-bar{
+        position: absolute;
+        right:240px;
+        top:100px;
+        width: 140px;
+        height:40px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 38px;
+        color: rgb(192, 184, 184);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+    }
+    .student-logo{
+        position: absolute;
+        right:370px;
+        width: 60px;
+        top:78px;
+    }
+    .teacher-bar{
+        position:absolute;
+        right:35px;
+        top:100px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 38px;
+        color: rgb(192, 184, 184);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height:40px;
+        font-size: 24px;
+    }
+    .teacher-logo{
+        position: absolute;
+        right:140px;
+        width:54px;
+        top:73px;
+    }
+    /*card1*/
+    .penta1{
+        position: absolute;
+        z-index:1;
+        top:90px;
+    }
+    .photo1{
+        height:160px;
+        position: absolute;
+        z-index: 2;
+        top:180px;
+        left: 87px;
+    }
+    .name1{
+        position: absolute;
+        z-index: 3;
+        background-color: #E0C667;
+        width: 180px;
+        height: 35px;
+        top: 344px;
+        left:57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    /*card2*/
+    .penta2{
+        position: absolute;
+        z-index:1;
+        top:430px;
+        left:0;
+    }
+    .photo2{
+        position: absolute;
+        z-index: 2;
+        top:500px;
+        left: 90px;;
+    }
+    .name2{
+        position: absolute;
+        z-index: 3;
+        background-color: #E0C667;
+        width: 180px;
+        height: 35px;
+        top:685px;
+        left:57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    /*card3*/
+.penta3{
+    position: absolute;
+    z-index:1;
+    top: 770px;
+    left: 0;
+}
+.photo3{
+    position: absolute;
+    z-index: 2;
+    top:860px;
+    left: 87px;
+}
+.name3{
+    position: absolute;
+    z-index: 3;
+    top:1025px;
+    background-color: #E0C667;
+    width: 180px;
+    height: 35px;
+    left:57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+    /*card4*/
+    .penta4{
+        position: absolute;
+        z-index:1;
+        top: 1110px;
+    }
+    .photo4{
+        position: absolute;
+        z-index: 2;
+        top:1200px;
+        left: 87px;
+    }
+    .name4{
+        position: absolute;
+        z-index: 3;
+        top:1365px;
+        background-color: #E0C667;
+        width: 180px;
+        height: 35px;
+        left:57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    /*card5*/
+    .penta5{
+        position: absolute;
+        z-index:1;
+        top: 1460px;
+        left:0;
+    }
+    .photo5{
+        position: absolute;
+        z-index: 2;
+        top:1530px;
+        left: 87px;
+    }
+    .name5{
+        position: absolute;
+        z-index: 3;
+        top:1713px;
+        background-color: #E0C667;
+        width: 180px;
+        height: 35px;
+        left:57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    /*card6*/
+    .penta6{
+        position: absolute;
+        z-index:1;
+        top: 1800px;
+        left:0;
+    }
+    .photo6{
+        position: absolute;
+        z-index: 2;
+        top:1890px;
+        left: 87px;
+    }
+    .name6{
+        position: absolute;
+        z-index: 3;
+        top:2053px;
+        background-color: #E0C667;
+        width: 180px;
+        height: 35px;
+        left:57px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+          
 }
